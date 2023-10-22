@@ -504,7 +504,7 @@ const like = (() => {
 const comment = (() => {
     const kirim = document.getElementById('kirim');
     const hadiran = document.getElementById('form-kehadiran');
-    // const balas = document.getElementById('reply');
+    const balas = document.getElementById('reply');
     const formnama = document.getElementById('form-nama');
     const formpesan = document.getElementById('form-pesan');
     const batal = document.getElementById('batal');
@@ -841,7 +841,7 @@ const comment = (() => {
 
         batal.disabled = false;
         balas.disabled = false;
-        balas.innerHTML = tmp;
+        // balas.innerHTML = tmp;
         formnama.disabled = false;
         formpesan.disabled = false;
     };
