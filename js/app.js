@@ -1,3 +1,4 @@
+
 // OK
 const storage = (table) => {
 
