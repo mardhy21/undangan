@@ -1004,8 +1004,8 @@ const comment = (() => {
         edit: edit,
         ubah: ubah,
 
-        balasan: balasan,
-        reply: reply,
+        // balasan: balasan,
+        // reply: reply,
         batal: () => {
             if (tempID) {
                 document.getElementById(tempID).scrollIntoView({ behavior: 'smooth', block: 'center' });
