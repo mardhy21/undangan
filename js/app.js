@@ -504,11 +504,11 @@ const like = (() => {
 const comment = (() => {
     const kirim = document.getElementById('kirim');
     const hadiran = document.getElementById('form-kehadiran');
-    const balas = document.getElementById('reply');
+    // const balas = document.getElementById('reply');
     const formnama = document.getElementById('form-nama');
     const formpesan = document.getElementById('form-pesan');
     const batal = document.getElementById('batal');
-    const sunting = document.getElementById('ubah');
+    // const sunting = document.getElementById('ubah');
 
     const owns = storage('owns');
     const likes = storage('likes');
@@ -521,8 +521,8 @@ const comment = (() => {
         hadiran.style.display = 'block';
 
         batal.style.display = 'none';
-        balas.style.display = 'none';
-        sunting.style.display = 'none';
+        // balas.style.display = 'none';
+        // sunting.style.display = 'none';
         document.getElementById('label-kehadiran').style.display = 'block';
         document.getElementById('balasan').innerHTML = null;
 
